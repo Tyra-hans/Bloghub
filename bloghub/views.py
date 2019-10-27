@@ -1,8 +1,8 @@
-from flask import Flask, render_template, url_for, flash, redirect
-from forms import RegistrationForm, LoginForm
-app = Flask(__name__)
+from flask import render_template, url_for, flash, redirect
+from bloghub import app
+from bloghub.forms import RegistrationForm, LoginForm
+from bloghub.models import User, Post
 
-app.config['SECRET_KEY']= '1371ce8114eac4891b9b92bcea6ecd46'
 
 posts = [
     {
@@ -46,7 +46,3 @@ def login():
             flash('Login Unsuccessful. Please check username and password', 'danger')
     return render_template('login.html', title='Login', form=form)
 
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
