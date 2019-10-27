@@ -45,7 +45,7 @@
     </header>
     <main role="main" class="container">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-10">
           {% with messages = get_flashed_messages(with_categories= true)%}
             {%if messages %}
               {% for category, message in messages %}
@@ -57,7 +57,7 @@
           {%endwith%}
           {% block content %}{% endblock %}
         </div>
-        <div class="col-md-4">
+        <!-- <div class="col-md-4">
           <div class="content-section">
             <h3>stay updated</h3>
             <p class='text-muted'>Be in the loop with blog posts in the folloing categories.
@@ -69,7 +69,7 @@
               </ul>
             </p>
           </div>
-        </div>
+        </div> -->
       </div>
     </main>
 
