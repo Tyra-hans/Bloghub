@@ -1,5 +1,5 @@
 # BlogHub
-#### an app that creates blog posts and displays random quotes, 28/10/2019
+#### An app that creates blog posts and displays random quotes, 28/10/2019
 #### Built by **Tyra Hans**
 ## Nature.
 Bloghub is  a personal blogging website where you can create and share your opinions and other users can read and comment on them. Additionally, it has a feature that displays random quotes to inspire your users. 
@@ -21,7 +21,7 @@ No known bugs.
 | update post form  |Key in details        |updates the post             |
 | delete post       |Key in details        |deletes post in db           |
 | navbar            |select options        |navigates to specific route  |
-| rendom quote      |refresh               |Displays random quote        |
+| random quote      |refresh               |Displays random quote        |
 
 
 ## Technologies
