@@ -34,7 +34,7 @@ No known bugs.
 
 ## Support and contact details
 For feedback , complaints or queries :
- email: tyrahans17@hmail.com , or call : 0705834383
+ email: tyrahans17@gmail.com , or call : 0705834383
 ### License
 This project is licensed under the terms of the MIT license.
 Copyright (c) 2019 **Tyra Hans**
