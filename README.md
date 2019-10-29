@@ -10,7 +10,7 @@ Bloghub is  a personal blogging website where you can create and share your opin
 * run "pip install" in your terminal to install python packages and "pip update" to update the packages.
 * run "atom ." in you terminal
 
-## Known Bugs
+## Bugs
 No known bugs.
 ## Behavior driven devlopment (BDD)
 | element           | Action               | Behaviour                   |
