@@ -13,7 +13,7 @@ Bloghub is  a personal blogging website where you can create and share your opin
 ## Bugs
 No known bugs.
 ## Behavior driven devlopment (BDD)
-| element           | Action               | Behaviour                   |
+| Element           | Action               | Behaviour                   |
 | ------------------|:--------------------:| ---------------------------:|
 | registration form |Key in details        | puts info in db             |
 | login form        |Key in details        |Authenticates users          |
@@ -25,8 +25,8 @@ No known bugs.
 
 
 ## Technologies
-* flask
-* python3.6
+* Flask
+* Python3.6
 * Javascript
 * Bootstrap
 * SQLAlchemy
